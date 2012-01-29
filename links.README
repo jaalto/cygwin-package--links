@@ -1,0 +1,86 @@
+links
+------------------------------------------
+
+Text mode WWW browser
+
+A lynx-like character mode browser. It includes support for
+rendering tables and frames, features background downloads, can
+display colors and has many other features. nlike lynx, links supports
+the HTML TABLE tag. Links also allows you to download files in the
+background.
+
+Runtime requirements:
+  cygwin
+  libbz2_1
+  libgcc1
+  libopenssl098
+  zlib0
+
+Build requirements:
+  cygwin
+  gcc4
+  libbz2-devel
+  openssl-devel
+  zlib-devel
+
+Canonical homepage:
+  http://links.twibright.com
+  http://packages.debian.org/links
+
+Canonical download:
+  http://artax.karlin.mff.cuni.cz/~mikulas/vyplody/links/download/
+
+Version control repository:
+
+Mailing list:
+  <links-list@linuxfromscratch.org>
+  http://linuxfromscratch.org/pipermail/links-list/
+  http://dir.gmane.org/gmane.comp.lang.links.general
+
+IRC channel:
+
+Upstream contact:
+  Author: Mikulas Patocka <mikulas@twibright.com>
+  Bugs: Mikulas Patocka <mikulas@twibright.com>, brain@twibright.com, clock@twibright.com, perm@twibright.com
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack links-2.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./links*.sh all
+
+This will create:
+  links-2.2-1.tar.bz2
+  links-2.2-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------
+
+Port Notes:
+
+----- version 2.2-1 -----
+- New upstream release 2010-06-24 Jari Aalto
+
+----- version 1.00pre20-1 -----
+- New maintainer, 2007-08-12 Jari Aalto.
+- New upstream release.
+
+----- version 0.99pre14-1 -----
+- Initial release, 2003-11-27 Harold L Hunt II <huntharo@msu.edu>
+- added patch to fix the File->OS Shell and File->New Window commands
+  (Frédéric L. W. Meunier
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
