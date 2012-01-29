@@ -1,2 +1,2 @@
 tag1: links
-  http://packages.debian.org/unstable/links pregexp:orig.tar.gz file:links2-1.1.orig.tar.gz new: x:
+  http://packages.debian.org/unstable/links pregexp:orig.tar.bz2 file:links2-1.1.orig.tar.bz2 new: x:
