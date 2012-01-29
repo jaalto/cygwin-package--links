@@ -10,15 +10,12 @@ the HTML TABLE tag. Links also allows you to download files in the
 background.
 
 Runtime requirements:
-  cygwin
   libbz2_1
   libgcc1
   libopenssl098
   zlib0
 
 Build requirements:
-  cygwin
-  gcc4
   libbz2-devel
   openssl-devel
   zlib-devel
@@ -52,15 +49,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack links-2.2-1-src.tar.bz2
+  unpack links-2.5-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./links*.sh all
 
 This will create:
-  links-2.2-1.tar.bz2
-  links-2.2-1-src.tar.bz2
+  links-2.5-1.tar.bz2
+  links-2.5-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -71,6 +68,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 2.5-1 -----
+- New upstream release 2012-01-29 Jari Aalto
+
 ----- version 2.2-1 -----
 - New upstream release 2010-06-24 Jari Aalto
 
@@ -80,7 +80,7 @@ Port Notes:
 
 ----- version 0.99pre14-1 -----
 - Initial release, 2003-11-27 Harold L Hunt II <huntharo@msu.edu>
-- added patch to fix the File->OS Shell and File->New Window commands
-  (Frédéric L. W. Meunier
+- Add patch to fix the File->OS Shell and File->New Window commands
+  (Frederic L. W. Meunier)
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
