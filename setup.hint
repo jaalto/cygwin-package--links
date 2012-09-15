@@ -5,4 +5,4 @@ display colors and has many other features. nlike lynx, links supports
 the HTML TABLE tag. Links also allows you to download files in the
 background."
 category: Web
-requires: libbz2_1 libgcc1 libopenssl098 zlib0
+requires: libbz2_1 libgcc1 libopenssl100 liblzma5 zlib0
