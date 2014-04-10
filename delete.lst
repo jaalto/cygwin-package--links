@@ -1,0 +1,8 @@
+# Syntax: PATTERN [rm(1) option, like -rf]
+#
+# The file and directory PATTERN can use variables $PKG $VER $DOC.
+#
+$DOC/INSTALL
+
+# Nothing relevant. All links are in file SITES
+$DOC/README
