@@ -52,15 +52,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack links-2.7-1-src.tar.bz2
+  unpack links-2.8-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./links*.sh all
 
 This will create:
-  links-2.7-1.tar.bz2
-  links-2.7-1-src.tar.bz2
+  links-2.8-1.tar.bz2
+  links-2.8-1-src.tar.bz2
 
 -------------------------------------------
 
@@ -70,6 +70,9 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 2.8-1 -----
+- New upstream release 2014-04-10 Jari Aalto
 
 ----- version 2.7-1 -----
 - New upstream release 2012-09-15 Jari Aalto
