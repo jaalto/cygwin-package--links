@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: links 2.8-1 -- Text mode WWW browser
+Subject: Updated: links 2.8-2 -- Text mode WWW browser
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -21,6 +21,9 @@ See http://links.twibright.com for release notes.
 
 INSTALL OR UPGRADE NOTES
 ========================
+
+Add patch to verify SSL certificates
+http://pkgs.fedoraproject.org/cgit/links.git/plain/links-2.2-ssl-verify.patch
 
 Standard install.
 

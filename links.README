@@ -17,6 +17,7 @@ Runtime requirements:
   zlib0
 
 Build requirements:
+  quilt
   libbz2-devel
   liblzmadec-devel
   openssl-devel
@@ -52,15 +53,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack links-2.8-1-src.tar.bz2
+  unpack links-2.8-2-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./links*.sh all
 
 This will create:
-  links-2.8-1.tar.bz2
-  links-2.8-1-src.tar.bz2
+  links-2.8-2.tar.xz
+  links-2.8-2-src.tar.xz
 
 -------------------------------------------
 
@@ -70,6 +71,12 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 2.8-2 -----
+- Security patch added. Thanks to Yaakov Selkowitz <yselkowitz@cygwin.com>
+- It was discovered that links does not verify SSL certificates, defeating
+  the purpose of the security SSL is supposed to provide.
+- http://pkgs.fedoraproject.org/cgit/links.git/plain/links-2.2-ssl-verify.patch
 
 ----- version 2.8-1 -----
 - New upstream release 2014-04-10 Jari Aalto
