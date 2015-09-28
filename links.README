@@ -53,15 +53,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack links-2.8-2-src.tar.bz2
+  unpack links-2.12-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./links*.sh all
 
 This will create:
-  links-2.8-2.tar.xz
-  links-2.8-2-src.tar.xz
+  links-2.12-1.tar.xz
+  links-2.12-1-src.tar.xz
 
 -------------------------------------------
 
@@ -71,6 +71,9 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 2.12-1 -----
+- New upstream release 2015-09-28 Jari Aalto
 
 ----- version 2.8-2 -----
 - Security patch added. Thanks to Yaakov Selkowitz <yselkowitz@cygwin.com>
