@@ -53,15 +53,15 @@ Language:
 ------------------------------------
 
 Build instructions:
-  unpack links-2.14-1-src.tar.bz2
+  unpack links-2.20.2-1-src.tar.bz2
     if you use setup to install this src package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
   ./links*.sh all
 
 This will create:
-  links-2.14-1.tar.xz
-  links-2.14-1-src.tar.xz
+  links-2.20.2-1.tar.xz
+  links-2.20.2-1-src.tar.xz
 
 -------------------------------------------
 
@@ -71,6 +71,9 @@ Files included in the binary distribution:
 ------------------
 
 Port Notes:
+
+----- version 2.20.2-1 -----
+- New upstream release 2020-05-05 Jari Aalto
 
 ----- version 2.14-1 -----
 - New upstream release 2017-09-26 Jari Aalto
