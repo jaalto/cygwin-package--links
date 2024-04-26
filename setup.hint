@@ -6,3 +6,4 @@ the HTML TABLE tag. Links also allows you to download files in the
 background."
 category: Web
 requires: libbz2_1 liblzma5 libopenssl100 zlib0
+license: GPL-2.0-or-later

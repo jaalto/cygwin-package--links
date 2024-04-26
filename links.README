@@ -24,7 +24,6 @@ Build requirements:
   zlib-devel
 
 Canonical homepage:
-  http://freecode.com/projects/links
   http://links.twibright.com
   http://packages.debian.org/links
 
@@ -45,7 +44,7 @@ Upstream contact:
   Bugs: Mikulas Patocka <mikulas@twibright.com>, brain@twibright.com, clock@twibright.com, perm@twibright.com
 
 License:
-  GPL
+  GPL-2.0-or-later
 
 Language:
   C
